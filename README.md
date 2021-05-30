@@ -16,7 +16,7 @@ HTML
 CSS
 JS
 
-NOTE - Our website doesn't have the background music feature. This is present in our github souce code.
+NOTE - Our website doesn't have the background music feature. This is present in our github source code.
 
 Website link - http://dontdrainthebrain.c1.biz/index.html
 
