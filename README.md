@@ -16,6 +16,8 @@ HTML
 CSS
 JS
 
+NOTE - Our website doesn't have the background music feature. This is present in our github souce code.
+
 Website link - http://dontdrainthebrain.c1.biz/index.html
 
 GitHub Repository link - https://github.com/hackon-2021-SAM/Don-t_drain_the_brain
