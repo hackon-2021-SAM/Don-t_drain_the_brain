@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Challenges </title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" src="index.js"> </script>
+</head>
+
+<header>
+  <div class="container">
+    <!img src="logo.png" alt="logo" class="logo">
+
+    <nav>
+      <ul>
+        <li><a href="basic.html">Home</a></li>
+        <li><a href="index.html">Quiz</a></li>
+        <li><a href="challenge.html">Challenge</a></li>
+        <li><a href="consultation.html">Consultation</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<body>
+	<h2> Activites to follow daily for good mental health </h2>
+	<h3> Check mark the activites you have completed</h3>
+	<form name="challenge" id="challenge">
+
+	<div>
+		<input type="checkbox" id="q1" value="1" onclick="challenge_display()"/>
+  		<label for="q1">  Meditation </label><br>
+	</div>
+	<div>
+		<input type="checkbox" id="q2" value="1" onclick="challenge_display()" />
+  		<label for="q2">  Writing Journal  </label><br>
+	</div>
+	<div>
+		<input type="checkbox" id="q3" value="1" onclick="challenge_display()" />
+  		<label for="q3"> Got to bed early</label><br>
+	</div>
+	<div>
+		<input type="checkbox" id="q4" value="1" onclick="challenge_display()" />
+  		<label for="q4"> Practice being present - Acknowledge your senses </label><br>
+	</div>
+	<div>
+		<input type="checkbox" id="q5" value="1" onclick="challenge_display()" />
+  		<label for="q5"> Set a goal and action plan to achieve it </label><br>
+	</div>
+	<div>
+		<input type="checkbox" id="q6" value="1" onclick="challenge_display()" />
+  		<label for="q6">  Found something that makes you laugh</label><br>
+	</div>
+	<div>
+		<input type="checkbox" id="q7" value="1" onclick="challenge_display()" />
+  		<label for="q7">  Got out in the nature</label><br>
+	</div>
+	<p id="text1" style="display:none">Meditaion relaxes mind! That's a great start</p>
+	<p id="text2" style="display:none">Jounral helps you keep track of daily work! Good you finished 2 challenges</p>
+	<p id="text3" style="display:none">Sleep is very necessary for a healthy body! Keep going!</p>
+	<p id="text4" style="display:none">Be present! You made it to the middle of the race!</p>
+	<p id="text5" style="display:none">Keep chasing your goal! Great work!</p>
+	<p id="text6" style="display:none">Laughing is therapy! Just one more to go!</p>
+	<p id="text7" style="display:none">Mother nature can fix Everything! Hurrayyyy you succesfully finished the 7-Day Challenge</p>
+
+<script>
+	function challenge_display(){
+		var result = 0;
+		result = result + 1;
+		var checkBox = document.getElementById("q1");
+	  var text = document.getElementById("text1");
+	  if (checkBox.checked == true){
+	    text.style.display = "block";
+	  } else {
+	     text.style.display = "none";
+	  }
+		var checkBox = document.getElementById("q2");
+	  var text = document.getElementById("text2");
+	  if (checkBox.checked == true){
+	    text.style.display = "block";
+	  } else {
+	     text.style.display = "none";
+	  }
+		var checkBox = document.getElementById("q3");
+	  var text = document.getElementById("text3");
+	  if (checkBox.checked == true){
+	    text.style.display = "block";
+	  } else {
+	     text.style.display = "none";
+	  }
+	var checkBox = document.getElementById("q4");
+	var text = document.getElementById("text4");
+	  if (checkBox.checked == true){
+	    text.style.display = "block";
+	  } else {
+	     text.style.display = "none";
+	  }
+	var checkBox = document.getElementById("q5");
+	var text = document.getElementById("text5");
+	  if (checkBox.checked == true){
+	    text.style.display = "block";
+	  } else {
+	     text.style.display = "none";
+	  }
+	var checkBox = document.getElementById("q6");
+	var text = document.getElementById("text6");
+	  if (checkBox.checked == true){
+	    text.style.display = "block";
+	  } else {
+	     text.style.display = "none";
+	  }
+	var checkBox = document.getElementById("q7");
+	var text = document.getElementById("text7");
+	  if (checkBox.checked == true){
+	    text.style.display = "block";
+	  } else {
+	     text.style.display = "none";
+	  }
+	}
+</script>
+</form>
+</body>
+</html>
