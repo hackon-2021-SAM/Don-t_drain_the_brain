@@ -16,7 +16,7 @@ HTML
 CSS
 JS
 
-NOTE - Our website doesn't have the background music feature. This is present in our github source code.
+NOTE - Our website doesn't have the background music feature. This is present in our github source code. The numbers displayed in the consultation page are random numbers they do not belong to real professional doctors. 
 
 Website link - http://dontdrainthebrain.c1.biz/index.html
 
